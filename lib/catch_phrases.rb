@@ -15,5 +15,8 @@ def link
 end 
 
 def all_phrases
-  puts .phrase
+  phrase 1 = "It's-a me, Mario!\n"
+  phrase 2 = "Thank You Mario! But Our Princess Is In Another Castle!\n/).to_stdout
+    expect{all_phrases}.to output(/It's Dangerous To Go Alone! Take This.\n/).to_stdout
+  end
 end
